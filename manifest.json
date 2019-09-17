@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "All Marley all the time",
+    "version": "1.0.0",
+    "content_scripts": [{
+        "matches": [
+            "<all_urls>"
+        ],
+        "js": ["content.js"]
+    }],
+    "browser_action": {
+    },
+    "web_accessible_resources": [
+        "*.png"
+    ]
+}
